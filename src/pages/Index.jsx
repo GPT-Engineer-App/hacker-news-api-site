@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from "react";
 import { Container, VStack, Box, Text, Link, Spinner, Flex, Heading } from "@chakra-ui/react";
-import { ExternalLinkIcon } from "@chakra-ui/icons";
+import { ExternalLinkIcon } from "react-icons/external-link";
 
 const Index = () => {
   const [stories, setStories] = useState([]);
